@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+        ddl-auto: update
+    properties:
+      hibernate:
+        format-sql: true
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        use-new-id-generator-mappings: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jpa-test
+    username: 
+    password: 
+    
